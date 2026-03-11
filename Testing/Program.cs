@@ -92,7 +92,7 @@ public class Program
 
         Console.WriteLine("---Postfix---");
 
-        string expression = "10 5 6 * +";
+        string expression = "10 5 7 * +";
 
         int result = PostfixCalculator.Evaluate(expression);
 
