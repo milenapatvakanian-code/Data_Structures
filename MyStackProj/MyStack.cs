@@ -28,7 +28,7 @@ public class MyStack<T> : IEnumerable<T>
     {
         var itemToRemove = MyStackItems.Head.Value;
 
-        MyStackItems.RemoveFirst<T>();
+        MyStackItems.RemoveFirst();
 
         return itemToRemove;
     }

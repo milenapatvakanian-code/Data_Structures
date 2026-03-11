@@ -1,5 +1,7 @@
 <Solution>
   <Project Path="LinkedListProj/MyLinkedListProj.csproj" />
+  <Project Path="MyQueueProj/MyQueueProj.csproj" Id="7fd73b11-c391-4f82-bc37-82547f9104b5" />
   <Project Path="MyStackProj/MyStackProj.csproj" />
+  <Project Path="PostfixProj/PostfixProj.csproj" Id="2293be29-60c4-4ed3-a9ec-1e49610f38e7" />
   <Project Path="Testing/Testing.csproj" />
 </Solution>

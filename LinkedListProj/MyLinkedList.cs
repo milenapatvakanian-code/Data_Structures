@@ -10,8 +10,8 @@ public class MyLinkedList<T> : ICollection<T>
 
     }
 
-    public MyLinkedListNode<T> Head { get; private set; }
-    public MyLinkedListNode<T> Tail { get; private set; }
+    public MyLinkedListNode<T>? Head { get; private set; }
+    public MyLinkedListNode<T>? Tail { get; private set; }
 
     #region ICollection
     public int Count { get; private set; }
@@ -117,7 +117,7 @@ public class MyLinkedList<T> : ICollection<T>
     #endregion Add
     #region Remove
     
-    public void RemoveFirst<T>()
+    public void RemoveFirst()
     {
         
         if (Head == null)

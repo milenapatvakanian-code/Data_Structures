@@ -1,5 +1,8 @@
 ﻿using MyLinkedListProj;
 using MyStackProj;
+using MyQueueProj;
+using PostfixProj;
+
 
 namespace Testing_DataStructures;
 
@@ -7,7 +10,8 @@ public class Program
 {
     private static void Main()
     {
-        Console.WriteLine("=======Hello Void=======");
+        Console.WriteLine("---TESTING--");
+        
 
         #region LinkedList
         var linkedList = new MyLinkedList<string>();
@@ -24,7 +28,7 @@ public class Program
         }
 
         Console.WriteLine();
-        linkedList.RemoveFirst<string>();
+        linkedList.RemoveFirst();
 
 
 
@@ -34,6 +38,7 @@ public class Program
         }
 
         #endregion LinkedList
+
         #region Stack
         Console.WriteLine("---Stack---");
         var stack = new MyStack<string>();
@@ -51,5 +56,49 @@ public class Program
         Console.WriteLine("After Pop Top:" + stack.Peek());
 
         #endregion Stack
+
+        #region Queue
+        Console.WriteLine("---Queue---");
+
+        var queue = new MyQueue<string>();
+
+        queue.Enqueue("X");
+        queue.Enqueue("Y");
+        queue.Enqueue("Z");
+        queue.Enqueue("W");
+
+        Console.WriteLine("Queue Items:");
+
+        foreach (var item in queue)
+        {
+            Console.WriteLine($"Current Item: {item}");
+        }
+
+        Console.WriteLine();
+
+        Console.WriteLine("Front of Queue: " + queue.Peek());
+
+        queue.Dequeue();
+
+        Console.WriteLine("After Dequeue Front: " + queue.Peek());
+
+        queue.Dequeue();
+
+        Console.WriteLine("After Dequeue Front: " + queue.Peek());
+
+        #endregion Queue
+        
+        #region Postfix
+
+        Console.WriteLine("---Postfix---");
+
+        string expression = "10 5 6 * +";
+
+        int result = PostfixCalculator.Evaluate(expression);
+
+        Console.WriteLine("Expression: " + expression);
+        Console.WriteLine("Result: " + result);
+
+        #endregion
     }
 }
