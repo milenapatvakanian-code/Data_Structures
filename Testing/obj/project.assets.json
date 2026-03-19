@@ -90,11 +90,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\DataStructure\\Testing\\Testing.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\Testing\\Testing.csproj",
       "projectName": "Testing",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\DataStructure\\Testing\\Testing.csproj",
+      "projectPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\Testing\\Testing.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\DataStructure\\Testing\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\Testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,17 +115,17 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Dell\\source\\repos\\DataStructure\\LinkedListProj\\MyLinkedListProj.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\DataStructure\\LinkedListProj\\MyLinkedListProj.csproj"
+            "C:\\Users\\Dell\\source\\repos\\Data_Structures\\LinkedListProj\\MyLinkedListProj.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\LinkedListProj\\MyLinkedListProj.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\DataStructure\\MyQueueProj\\MyQueueProj.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\DataStructure\\MyQueueProj\\MyQueueProj.csproj"
+            "C:\\Users\\Dell\\source\\repos\\Data_Structures\\MyQueueProj\\MyQueueProj.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\MyQueueProj\\MyQueueProj.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\DataStructure\\MyStackProj\\MyStackProj.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\DataStructure\\MyStackProj\\MyStackProj.csproj"
+            "C:\\Users\\Dell\\source\\repos\\Data_Structures\\MyStackProj\\MyStackProj.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\MyStackProj\\MyStackProj.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\DataStructure\\PostfixProj\\PostfixProj.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\DataStructure\\PostfixProj\\PostfixProj.csproj"
+            "C:\\Users\\Dell\\source\\repos\\Data_Structures\\PostfixProj\\PostfixProj.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\PostfixProj\\PostfixProj.csproj"
             }
           }
         }
