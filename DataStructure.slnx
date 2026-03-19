@@ -1,7 +1,5 @@
 <Solution>
   <Project Path="LinkedListProj/MyLinkedListProj.csproj" />
-  <Project Path="MyBinaryTreeProj/MyBinaryTreeProj.csproj" Id="d400226f-bfa2-45f5-8bcb-db17e776a267" />
-  <Project Path="MyHashTableAlgorithm/MyHashTableAlgorithm.csproj" Id="fd84cd08-d0c0-4d83-bb31-03ddff107090" />
   <Project Path="MyQueueProj/MyQueueProj.csproj" Id="7fd73b11-c391-4f82-bc37-82547f9104b5" />
   <Project Path="MyStackProj/MyStackProj.csproj" />
   <Project Path="PostfixProj/PostfixProj.csproj" Id="2293be29-60c4-4ed3-a9ec-1e49610f38e7" />

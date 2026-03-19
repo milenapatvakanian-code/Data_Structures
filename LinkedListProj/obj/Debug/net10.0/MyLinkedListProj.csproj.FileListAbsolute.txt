@@ -10,15 +10,3 @@ C:\Users\Dell\source\repos\DataStructure\LinkedListProj\obj\Debug\net10.0\MyLink
 C:\Users\Dell\source\repos\DataStructure\LinkedListProj\obj\Debug\net10.0\refint\MyLinkedListProj.dll
 C:\Users\Dell\source\repos\DataStructure\LinkedListProj\obj\Debug\net10.0\MyLinkedListProj.pdb
 C:\Users\Dell\source\repos\DataStructure\LinkedListProj\obj\Debug\net10.0\ref\MyLinkedListProj.dll
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\bin\Debug\net10.0\MyLinkedListProj.deps.json
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\bin\Debug\net10.0\MyLinkedListProj.dll
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\bin\Debug\net10.0\MyLinkedListProj.pdb
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\MyLinkedListProj.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\MyLinkedListProj.AssemblyInfoInputs.cache
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\MyLinkedListProj.AssemblyInfo.cs
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\MyLinkedListProj.csproj.CoreCompileInputs.cache
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\MyLinkedListProj.sourcelink.json
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\MyLinkedListProj.dll
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\refint\MyLinkedListProj.dll
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\MyLinkedListProj.pdb
-C:\Users\Dell\source\repos\Data_Structures\LinkedListProj\obj\Debug\net10.0\ref\MyLinkedListProj.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PostfixProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d65ae87850782f4ad501d9389e0b7a69f5cae268")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+969d74c75647c1a02f9870896706e8287bc920d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PostfixProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PostfixProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
