@@ -2,6 +2,7 @@
 using MyStackProj;
 using MyQueueProj;
 using PostfixProj;
+using MyBinaryTreeProj;
 
 
 namespace Testing_DataStructures;
@@ -100,5 +101,73 @@ public class Program
         Console.WriteLine("Result: " + result);
 
         #endregion
+
+        #region BinaryTree
+
+        Console.WriteLine("---Binary Tree---");
+
+        var tree = new MyBinaryTree<int>();
+
+        // Add elements
+        tree.Add(5);
+        tree.Add(3);
+        tree.Add(7);
+        tree.Add(2);
+        tree.Add(4);
+        tree.Add(6);
+        tree.Add(8);
+
+        // InOrder (should be sorted)
+        Console.WriteLine("InOrder:");
+        foreach (var item in tree.InOrder())
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+
+        // PreOrder
+        Console.WriteLine("PreOrder:");
+        foreach (var item in tree.PreOrder())
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+
+        // PostOrder
+        Console.WriteLine("PostOrder:");
+        foreach (var item in tree.PostOrder())
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+
+        // Remove leaf
+        Console.WriteLine("Remove (2):");
+        tree.Remove(2);
+        foreach (var item in tree)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+
+        // Remove node with one child
+        Console.WriteLine("Remove node with one child (3):");
+        tree.Remove(3);
+        foreach (var item in tree)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+
+        // Remove node with two children
+        Console.WriteLine("Remove node with two children (5):");
+        tree.Remove(5);
+        foreach (var item in tree)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+
+        #endregion BinaryTree
     }
 }
