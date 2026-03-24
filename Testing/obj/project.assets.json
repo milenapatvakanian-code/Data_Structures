@@ -12,6 +12,16 @@
           "bin/placeholder/MyBinaryTreeProj.dll": {}
         }
       },
+      "MyHashTableAlgorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/MyHashTableAlgorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyHashTableAlgorithms.dll": {}
+        }
+      },
       "MyLinkedListProj/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -69,6 +79,11 @@
       "path": "../BinaryTree/MyBinaryTreeProj.csproj",
       "msbuildProject": "../BinaryTree/MyBinaryTreeProj.csproj"
     },
+    "MyHashTableAlgorithms/1.0.0": {
+      "type": "project",
+      "path": "../MyHashTableAlgorithms/MyHashTableAlgorithms.csproj",
+      "msbuildProject": "../MyHashTableAlgorithms/MyHashTableAlgorithms.csproj"
+    },
     "MyLinkedListProj/1.0.0": {
       "type": "project",
       "path": "../LinkedListProj/MyLinkedListProj.csproj",
@@ -93,6 +108,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "MyBinaryTreeProj >= 1.0.0",
+      "MyHashTableAlgorithms >= 1.0.0",
       "MyLinkedListProj >= 1.0.0",
       "MyQueueProj >= 1.0.0",
       "MyStackProj >= 1.0.0",
@@ -136,6 +152,9 @@
             },
             "C:\\Users\\Dell\\source\\repos\\Data_Structures\\LinkedListProj\\MyLinkedListProj.csproj": {
               "projectPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\LinkedListProj\\MyLinkedListProj.csproj"
+            },
+            "C:\\Users\\Dell\\source\\repos\\Data_Structures\\MyHashTableAlgorithms\\MyHashTableAlgorithms.csproj": {
+              "projectPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\MyHashTableAlgorithms\\MyHashTableAlgorithms.csproj"
             },
             "C:\\Users\\Dell\\source\\repos\\Data_Structures\\MyQueueProj\\MyQueueProj.csproj": {
               "projectPath": "C:\\Users\\Dell\\source\\repos\\Data_Structures\\MyQueueProj\\MyQueueProj.csproj"

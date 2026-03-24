@@ -50,3 +50,5 @@ C:\Users\Dell\source\repos\Data_Structures\Testing\obj\Debug\net10.0\Testing.gen
 C:\Users\Dell\source\repos\Data_Structures\Testing\obj\Debug\net10.0\ref\Testing.dll
 C:\Users\Dell\source\repos\Data_Structures\Testing\bin\Debug\net10.0\MyBinaryTreeProj.dll
 C:\Users\Dell\source\repos\Data_Structures\Testing\bin\Debug\net10.0\MyBinaryTreeProj.pdb
+C:\Users\Dell\source\repos\Data_Structures\Testing\bin\Debug\net10.0\MyHashTableAlgorithms.dll
+C:\Users\Dell\source\repos\Data_Structures\Testing\bin\Debug\net10.0\MyHashTableAlgorithms.pdb

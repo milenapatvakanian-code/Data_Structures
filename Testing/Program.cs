@@ -1,8 +1,10 @@
-﻿using MyLinkedListProj;
-using MyStackProj;
+﻿using MyBinaryTreeProj;
+using MyLinkedListProj;
 using MyQueueProj;
+using MyStackProj;
 using PostfixProj;
-using MyBinaryTreeProj;
+using System.Collections;
+using MyHashTableAlgorithms;
 
 
 namespace Testing_DataStructures;
@@ -169,5 +171,23 @@ public class Program
         Console.WriteLine();
 
         #endregion BinaryTree
+
+        #region HashTable
+        Console.WriteLine("---Hash Table---");
+        string testString = "Lorem ipsum dolor";
+
+        // Additive Hash
+        int additive = MyHashTable.AdditiveHash(testString);
+        Console.WriteLine($"Additive Hash of \"{testString}\"  {additive}");
+
+        // Folding Hash
+        int folding = MyHashTable.MyFoldingHash(testString);
+        Console.WriteLine($"Folding Hash of \"{testString}\" {folding}");
+
+        // DJB2 Hash
+        int djb2 = MyHashTable.Djb2(testString);
+        Console.WriteLine($"DJB2 Hash of \"{testString}\"  {djb2}");
+
+        #endregion HashTable
     }
 }

@@ -9,6 +9,7 @@
       "Testing/1.0.0": {
         "dependencies": {
           "MyBinaryTreeProj": "1.0.0",
+          "MyHashTableAlgorithms": "1.0.0",
           "MyLinkedListProj": "1.0.0",
           "MyQueueProj": "1.0.0",
           "MyStackProj": "1.0.0",
@@ -21,6 +22,14 @@
       "MyBinaryTreeProj/1.0.0": {
         "runtime": {
           "MyBinaryTreeProj.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MyHashTableAlgorithms/1.0.0": {
+        "runtime": {
+          "MyHashTableAlgorithms.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -76,6 +85,11 @@
       "sha512": ""
     },
     "MyBinaryTreeProj/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyHashTableAlgorithms/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
