@@ -4,7 +4,7 @@
     {
                     
         #region Additive Hash
-                public static int AdditiveHash(string input)
+        public static int AdditiveHash(string input)
         {
             int hashValue = 0;
             foreach (char c in input)
