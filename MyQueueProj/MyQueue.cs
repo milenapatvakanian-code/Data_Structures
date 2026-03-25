@@ -36,7 +36,7 @@ public class MyQueue<T> : IEnumerable<T>
     public void Clear()
     {
         items.Clear();
-        Console.WriteLine("The queue is empty!");
+        Console.WriteLine("The queue is empty");
     }
 
     public IEnumerator<T> GetEnumerator()
