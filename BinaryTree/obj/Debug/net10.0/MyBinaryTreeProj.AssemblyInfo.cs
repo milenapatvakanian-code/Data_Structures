@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyBinaryTreeProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+330d69c06370fa5d09dffff3af25af3697899bd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d26eacd8f2b4ba4be2b01af44da0ecb38699453e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyBinaryTreeProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyBinaryTreeProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
