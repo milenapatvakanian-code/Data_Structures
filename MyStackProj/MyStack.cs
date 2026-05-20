@@ -11,6 +11,7 @@ public class MyStack<T> : IEnumerable<T>
     }
 
     
+    /// <param name="collection"></param>
     public MyStack(ICollection<T> collection)
     {
         foreach (var item in collection)
@@ -33,6 +34,7 @@ public class MyStack<T> : IEnumerable<T>
         return itemToRemove;
     }
 
+    
     public T Peek()
     {
         return MyStackItems.Head.Value;
@@ -48,6 +50,3 @@ public class MyStack<T> : IEnumerable<T>
         return GetEnumerator();
     }
 }
-
-
-

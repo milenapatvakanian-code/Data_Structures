@@ -1,0 +1,15 @@
+C:\Users\Dell\source\repos\Data_Structures\NewProj\bin\Debug\net10.0\MyChess.exe
+C:\Users\Dell\source\repos\Data_Structures\NewProj\bin\Debug\net10.0\MyChess.deps.json
+C:\Users\Dell\source\repos\Data_Structures\NewProj\bin\Debug\net10.0\MyChess.runtimeconfig.json
+C:\Users\Dell\source\repos\Data_Structures\NewProj\bin\Debug\net10.0\MyChess.dll
+C:\Users\Dell\source\repos\Data_Structures\NewProj\bin\Debug\net10.0\MyChess.pdb
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\MyChess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\MyChess.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\MyChess.AssemblyInfo.cs
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\MyChess.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\MyChess.sourcelink.json
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\MyChess.dll
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\refint\MyChess.dll
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\MyChess.pdb
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\MyChess.genruntimeconfig.cache
+C:\Users\Dell\source\repos\Data_Structures\NewProj\obj\Debug\net10.0\ref\MyChess.dll

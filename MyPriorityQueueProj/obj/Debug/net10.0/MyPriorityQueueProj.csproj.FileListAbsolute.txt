@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\Data_Structures\MyPriorityQueueProj\obj\Debug\net10.0\MyPriorityQueueProj.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Data_Structures\MyPriorityQueueProj\obj\Debug\net10.0\MyPriorityQueueProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\Data_Structures\MyPriorityQueueProj\obj\Debug\net10.0\MyPriorityQueueProj.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\Data_Structures\MyPriorityQueueProj\obj\Debug\net10.0\MyPriorityQueueProj.AssemblyInfo.cs
+C:\Users\Dell\source\repos\Data_Structures\MyPriorityQueueProj\obj\Debug\net10.0\MyPriorityQueueProj.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Data_Structures\MyPriorityQueueProj\obj\Debug\net10.0\MyPriorityQueueProj.sourcelink.json

@@ -49,7 +49,7 @@
 
         public static int MyGetByte(string str, int index)
         {
-            return str[index] & 0xFF;
+            return (int)str[index];
         }
         #endregion
 

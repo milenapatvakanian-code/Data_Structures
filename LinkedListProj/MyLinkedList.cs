@@ -1,5 +1,4 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 
 namespace MyLinkedListProj;
 
@@ -7,11 +6,12 @@ public class MyLinkedList<T> : ICollection<T>
 {
     public MyLinkedList()
     {
-
+        Head = null;
+        Tail = null;
     }
 
-    public MyLinkedListNode<T> Head { get; private set; }
-    public MyLinkedListNode<T> Tail { get; private set; }
+    public MyLinkedListNode<T>? Head { get; private set; }
+    public MyLinkedListNode<T>? Tail { get; private set; }
 
     #region ICollection
     public int Count { get; private set; }
@@ -35,7 +35,7 @@ public class MyLinkedList<T> : ICollection<T>
 
         while (current != null)
         {
-            if (current.Value.Equals(item))
+            if (current.Value!.Equals(item))
                 return true;
 
             current = current.Next;
@@ -50,7 +50,7 @@ public class MyLinkedList<T> : ICollection<T>
 
         while (current != null)
         {
-            array[arrayIndex++] = current.Value;
+            array[arrayIndex++] = current.Value!;
             current = current.Next;
         }
     }
@@ -65,8 +65,7 @@ public class MyLinkedList<T> : ICollection<T>
 
         while (current != null)
         {
-            yield return current.Value;
-
+            yield return current.Value!;
             current = current.Next;
         }
     }
@@ -84,7 +83,7 @@ public class MyLinkedList<T> : ICollection<T>
     }
     private void AddFirst(MyLinkedListNode<T> node)
     {
-        MyLinkedListNode<T> temp = Head;
+        MyLinkedListNode<T>? temp = Head;
 
         Head = node;
         Head.Next = temp;
@@ -109,37 +108,72 @@ public class MyLinkedList<T> : ICollection<T>
         }
         else
         {
-            Tail.Next = node;
+            Tail!.Next = node;
             Tail = node;
         }
         Count++;
     }
+
+    public void AddBefore(MyLinkedListNode<T> node, T value)
+    {
+        if (node == null)
+            throw new ArgumentNullException(nameof(node));
+
+        MyLinkedListNode<T> newNode = new MyLinkedListNode<T>(value);
+
+        if (node == Head)
+        {
+            newNode.Next = Head;
+            Head = newNode;
+        }
+        else
+        {
+            MyLinkedListNode<T>? current = Head;
+            while (current != null && current.Next != node)
+            {
+                current = current.Next;
+            }
+
+            if (current == null)
+                throw new InvalidOperationException("Node not found");
+
+            current.Next = newNode;
+            newNode.Next = node;
+        }
+
+        Count++;
+    }
     #endregion Add
     #region Remove
-    
+    /// <summary>
+    /// Removes the first node from the list
+    /// </summary>
     public void RemoveFirst()
     {
-        
-        if (Head == null)
+        var head = Head;
+        //Check if the list is empty
+        if (head == null)
             throw new InvalidOperationException("Cannot remove from empty list");
 
-      
-        Head = Head.Next;
+        //Move Head to the next node
+        Head = head.Next;
         Count--;
 
-        
+        //If list is now empty, Tail should also be null
         if (Count == 0)
             Tail = null;
     }
 
-
+    /// <summary>
+    /// Removes the last node from the list
+    /// </summary>
     public void RemoveLast()
     {
-        
+        //Check if list is empty
         if (Count == 0)
             throw new InvalidOperationException("Cannot remove from empty list");
 
-        
+        //Special case; only one node
         if (Count == 1)
         {
             Head = null;
@@ -147,20 +181,21 @@ public class MyLinkedList<T> : ICollection<T>
         }
         else
         {
-            
-            MyLinkedListNode<T> current = Head;
-
-          
-            while (current.Next != Tail)
+            //Find the node before the tail. Use non-null assertion because Count > 1 implies Head != null.
+            var current = Head;
+            while (current!.Next != Tail)
             {
                 current = current.Next;
             }
 
+            //Disconnect the tail
             current.Next = null;
             Tail = current;
         }
 
         Count--;
     }
+
+
     #endregion Remove
 }

@@ -1,9 +1,14 @@
 <Solution>
   <Project Path="BinaryTree/MyBinaryTreeProj.csproj" Id="0b0e8cfc-d3ac-4d12-a63b-5d4e3738f464" />
   <Project Path="LinkedListProj/MyLinkedListProj.csproj" />
+  <Project Path="MyBubbleProj/MySortAlgorithm.csproj" Id="86000da6-9324-437d-801e-94e2887e4a48" />
   <Project Path="MyHashTableAlgorithms/MyHashTableAlgorithms.csproj" Id="614b72eb-4e04-48e3-bd54-26792e09cf44" />
+  <Project Path="MyPriorityQueueProj/MyPriorityQueueProj.csproj" Id="79856c59-0532-4f67-a5f3-f864a0c86c26" />
   <Project Path="MyQueueProj/MyQueueProj.csproj" Id="7fd73b11-c391-4f82-bc37-82547f9104b5" />
+  <Project Path="MySetProj/MySetProj.csproj" Id="d192c34c-e88a-41e4-9f64-96601328def9" />
   <Project Path="MyStackProj/MyStackProj.csproj" />
+  <Project Path="NewProj/MyChess.csproj" Id="bf211518-630b-43b6-b9a1-4ca1a47ce9e3" />
   <Project Path="PostfixProj/PostfixProj.csproj" Id="2293be29-60c4-4ed3-a9ec-1e49610f38e7" />
   <Project Path="Testing/Testing.csproj" />
+  <Project Path="WPFProj/WPFProj.csproj" Id="96b7202d-eb66-4531-8176-7d5b584119e3" />
 </Solution>

@@ -9,9 +9,12 @@
       "Testing/1.0.0": {
         "dependencies": {
           "MyBinaryTreeProj": "1.0.0",
+          "MyChess": "1.0.0",
           "MyHashTableAlgorithms": "1.0.0",
           "MyLinkedListProj": "1.0.0",
           "MyQueueProj": "1.0.0",
+          "MySetProj": "1.0.0",
+          "MySortAlgorithm": "1.0.0",
           "MyStackProj": "1.0.0",
           "PostfixProj": "1.0.0"
         },
@@ -22,6 +25,14 @@
       "MyBinaryTreeProj/1.0.0": {
         "runtime": {
           "MyBinaryTreeProj.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MyChess/1.0.0": {
+        "runtime": {
+          "MyChess.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -49,6 +60,25 @@
         },
         "runtime": {
           "MyQueueProj.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MySetProj/1.0.0": {
+        "dependencies": {
+          "MyLinkedListProj": "1.0.0"
+        },
+        "runtime": {
+          "MySetProj.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MySortAlgorithm/1.0.0": {
+        "runtime": {
+          "MySortAlgorithm.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -89,6 +119,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "MyChess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "MyHashTableAlgorithms/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -100,6 +135,16 @@
       "sha512": ""
     },
     "MyQueueProj/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySetProj/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySortAlgorithm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,16 @@
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\bin\Debug\net10.0\MySetProj.deps.json
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\bin\Debug\net10.0\MySetProj.dll
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\bin\Debug\net10.0\MySetProj.pdb
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\bin\Debug\net10.0\MyLinkedListProj.dll
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\bin\Debug\net10.0\MyLinkedListProj.pdb
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.AssemblyInfo.cs
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.sourcelink.json
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.csproj.Up2Date
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.dll
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\refint\MySetProj.dll
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\MySetProj.pdb
+C:\Users\Dell\source\repos\Data_Structures\MySetProj\obj\Debug\net10.0\ref\MySetProj.dll

@@ -2,9 +2,13 @@
 using MyLinkedListProj;
 using MyQueueProj;
 using MyStackProj;
+
+
 using PostfixProj;
 using System.Collections;
 using MyHashTableAlgorithms;
+using MySetProj;
+using MyBubbleProj;
 
 
 namespace Testing_DataStructures;
@@ -14,7 +18,7 @@ public class Program
     private static void Main()
     {
         Console.WriteLine("---TESTING--");
-        
+
 
         #region LinkedList
         var linkedList = new MyLinkedList<string>();
@@ -45,10 +49,10 @@ public class Program
         #region Stack
         Console.WriteLine("---Stack---");
         var stack = new MyStack<string>();
-        stack.Push("A");
-        stack.Push("B");
-        stack.Push("C");
-        stack.Push("D");
+        stack.Push("1");
+        stack.Push("2");
+        stack.Push("3");
+        stack.Push("4");
         foreach (var item in stack)
         {
             Console.WriteLine($"Current Item: {item}");
@@ -90,19 +94,19 @@ public class Program
         Console.WriteLine("After Dequeue Front: " + queue.Peek());
 
         #endregion Queue
-        
-        #region Postfix
 
-        Console.WriteLine("---Postfix---");
+        //#region Postfix
 
-        string expression = "3 10 7 * +";
+        //Console.WriteLine("---Postfix---");
 
-        int result = PostfixCalculator.Evaluate(expression);
+        //string expression = "(5 2) + 3 *)";
 
-        Console.WriteLine("Expression: " + expression);
-        Console.WriteLine("Result: " + result);
+        //int result = PostfixCalculator.Evaluate(expression);
 
-        #endregion
+        //Console.WriteLine("Expression: " + expression);
+        //Console.WriteLine("Result: " + result);
+
+        //#endregion
 
         #region BinaryTree
 
@@ -172,22 +176,83 @@ public class Program
 
         #endregion BinaryTree
 
-        #region HashTable
-        Console.WriteLine("---Hash Table---");
-        string testString = "Lorem ipsum dolor";
+        #region BubbleSort
+        Console.WriteLine("___BubbleSort___");
 
-        // Additive Hash
-        int additive = MyHashTable.AdditiveHash(testString);
-        Console.WriteLine($"Additive Hash of \"{testString}\"  {additive}");
+        var bubbleSort = new MyBubbleSort<int>();
+        int[] bubbleArray = { 5, 2, 9, 1,  6 };
+        bubbleSort.Sort(bubbleArray);
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in bubbleArray)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+        #endregion BubbleSort
 
-        // Folding Hash
-        int folding = MyHashTable.MyFoldingHash(testString);
-        Console.WriteLine($"Folding Hash of \"{testString}\" {folding}");
+        #region InsertionSort
+        Console.WriteLine("___InsertionSort___");
 
-        // DJB2 Hash
-        int djb2 = MyHashTable.Djb2(testString);
-        Console.WriteLine($"DJB2 Hash of \"{testString}\"  {djb2}");
+        var insertionSort = new MyInsertion<int>();
+        int[] insertionArray = { 5, 18, 9, 1, 0 };
+        insertionSort.Sort(insertionArray);
 
-        #endregion HashTable
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in insertionArray)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+        #endregion
+
+        #region SelectionSort
+        Console.WriteLine("___SelectionSort___");
+
+        var selectionSort = new SelectionSort<int>();
+        int[] selectionArray = { 11, 8, 20, 1, 10 };
+
+        selectionSort.Sort(selectionArray);
+
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in selectionArray)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+        #endregion
+
+        #region MergeSort
+        Console.WriteLine("___MergeSort___");
+
+        var mergeSort = new MyMergeSort<int>();
+        int[] mergeArray = { 5, 18, 9, 1, 0 };
+
+        mergeSort.Sort(mergeArray);
+
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in mergeArray)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+        #endregion
+
+        #region QuickSort
+        Console.WriteLine("___QuickSort___");
+
+        var quickSort = new MyQuickSort<int>();
+        int[] array = { 8, 2, 4, 7, 1, 3, 9, 6, 5 };  
+
+        quickSort.Sort(array);
+
+        Console.WriteLine("Sorted Array:");
+        foreach (var item in array)
+        {
+            Console.Write(item + " ");
+        }
+        Console.WriteLine();
+        #endregion
+
+
     }
 }
